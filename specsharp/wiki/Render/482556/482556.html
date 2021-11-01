@@ -1,0 +1,9 @@
+<div class="wikidoc"><h1>External Dependencies</h1>
+<h2>Spec#</h2>
+<h3>Things you must have in order to build Spec#</h3><ul><li><b>Visual Studio 2010</b>: Spec# is meant to be built by Visual Studio, not via makefiles. You should have at least C# and C++ installed as supported languages in Visual Studio: there are both types of projects in the Spec# solution.</li></ul>
+
+<h2>SscBoogie</h2>
+<h3>Things you must have in order to build SscBoogie</h3><ul><li><b>Spec#</b>: SscBoogie is written in Spec#, so you need a Spec# compiler in order to build it. You can either download the <a href="http://research.microsoft.com/research/downloads/details/8826adb9-8398-40d6-a22d-951923fe2647/details.aspx">Spec# binary distribution</a> or else enlist in the <a href="http://www.specsharp.codeplex.com">Spec# CodePlex</a>.</li>
+<li><b>Boogie</b>: SscBoogie depends on Boogie itself. If you installed the Spec# binary distribution, then you can use the Boogie binaries that come with that. Or you can get Boogie from the <a href="http://boogie.codeplex.com">Boogie CodePlex project</a>. From that site you can either install the binaries or download the sources and build it yourself.</li></ul>
+
+<h3>Things you need in order to run SscBoogie</h3><ul><li><b>Z3</b>: SscBoogie uses Boogie and its default is to generate verification conditions for <a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/">Z3</a>. Other theorem provers can also be used, e.g., <a href="http://kind.ucd.ie/products/opensource/Simplify/">Simplify</a>. You will need some theorem prover that Boogie produces output for if you wish to actually find out whether a Spec# program is correct or not.</li></ul></div><div class="ClearBoth"></div>
