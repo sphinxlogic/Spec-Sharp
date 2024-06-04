@@ -1,0 +1,2 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\SpecSharpTests\obj\Debug\SpecSharpTests.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\SpecSharpTests\obj\Debug\SpecSharpTests.csproj.CoreCompileInputs.cache

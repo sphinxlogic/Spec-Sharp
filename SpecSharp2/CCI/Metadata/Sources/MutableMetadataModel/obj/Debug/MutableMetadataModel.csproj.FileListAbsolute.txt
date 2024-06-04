@@ -1,0 +1,14 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MutableMetadataModel.XML
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MutableMetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MutableMetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MetadataHelper.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MetadataHelper.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MetadataHelper.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\obj\Debug\MutableMetadataModel.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\obj\Debug\MutableMetadataModel.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\obj\Debug\MutableMetadataModel.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\obj\Debug\Microsoft.Cci.MutableMetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MutableMetadataModel\obj\Debug\Microsoft.Cci.MutableMetadataModel.pdb

@@ -1,0 +1,10 @@
+D:\AzureDevops\WindowsTeam\3790.1180\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\bin\System.Compiler.Runtime.dll
+D:\AzureDevops\WindowsTeam\3790.1180\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\bin\System.Compiler.Runtime.pdb
+D:\AzureDevops\WindowsTeam\3790.1180\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\obj\Debug\System.Compiler.Runtime.dll
+D:\AzureDevops\WindowsTeam\3790.1180\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\obj\Debug\System.Compiler.Runtime.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\bin\System.Compiler.Runtime.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\bin\System.Compiler.Runtime.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\obj\Debug\System.Compiler.Runtime.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\obj\Debug\System.Compiler.Runtime.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\obj\Debug\System.Compiler.Runtime.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp\System.Compiler.Runtime\obj\Debug\System.Compiler.Runtime.csproj.CoreCompileInputs.cache

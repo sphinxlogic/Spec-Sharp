@@ -1,0 +1,7 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Cci.MsBuild\obj\Debug\Cci.MsBuild.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Cci.MsBuild\obj\Debug\Cci.MsBuild.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Cci.MsBuild\obj\Debug\Cci.MsBuild.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Cci.MsBuild\obj\Debug\Microsoft.Cci.MsBuild.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Cci.MsBuild\obj\Debug\Microsoft.Cci.MsBuild.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Microsoft.Cci.MsBuild.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Microsoft.Cci.MsBuild.pdb

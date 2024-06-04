@@ -1,0 +1,2 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\SpecSharpCommandLineHost\obj\Debug\SpecSharpCommandLineHost.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\SpecSharpCommandLineHost\obj\Debug\SpecSharpCommandLineHost.csproj.CoreCompileInputs.cache

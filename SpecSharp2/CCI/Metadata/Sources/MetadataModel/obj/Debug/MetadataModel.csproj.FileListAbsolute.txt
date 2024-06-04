@@ -1,0 +1,7 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataModel\obj\Debug\MetadataModel.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataModel\obj\Debug\MetadataModel.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataModel\obj\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataModel\obj\Debug\Microsoft.Cci.MetadataModel.pdb

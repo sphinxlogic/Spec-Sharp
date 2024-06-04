@@ -1,0 +1,17 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.Analysis.ControlAndDataFlowGraph.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.Analysis.ControlAndDataFlowGraph.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.Analysis.ControlAndDataFlowGraph.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.MetadataHelper.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.SourceModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.MetadataHelper.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.MetadataHelper.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.MetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.MetadataModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.SourceModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\bin\Debug\Microsoft.Cci.SourceModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\obj\Debug\ControlAndDataFlowGraph.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\obj\Debug\ControlAndDataFlowGraph.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\obj\Debug\ControlAndDataFlowGraph.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\obj\Debug\Microsoft.Cci.Analysis.ControlAndDataFlowGraph.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ControlAndDataFlowGraph\obj\Debug\Microsoft.Cci.Analysis.ControlAndDataFlowGraph.pdb

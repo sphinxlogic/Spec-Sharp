@@ -1,0 +1,13 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataHelper.XML
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataHelper.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataHelper.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\obj\Debug\MetadataHelper.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\obj\Debug\Microsoft.Cci.MetadataHelper.ErrorMessages.resources
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\obj\Debug\MetadataHelper.csproj.GenerateResource.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\obj\Debug\MetadataHelper.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\obj\Debug\MetadataHelper.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\obj\Debug\Microsoft.Cci.MetadataHelper.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\MetadataHelper\obj\Debug\Microsoft.Cci.MetadataHelper.pdb

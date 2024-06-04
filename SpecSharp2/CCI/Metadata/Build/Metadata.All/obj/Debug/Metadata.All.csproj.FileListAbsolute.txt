@@ -1,0 +1,12 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Bin\Debug\TestData\v4\mscorlib.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Bin\Debug\TestData\v4\System.Core.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Bin\Debug\TestData\v2\mscorlib.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Bin\Debug\TestData\v2\System.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Bin\Debug\TestData\v4\mscorlib.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Bin\Debug\Metadata.All.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Bin\Debug\Metadata.All.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Metadata.All\obj\Debug\Metadata.All.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Metadata.All\obj\Debug\Metadata.All.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Metadata.All\obj\Debug\Metadata.All.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Metadata.All\obj\Debug\Metadata.All.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Build\Metadata.All\obj\Debug\Metadata.All.pdb

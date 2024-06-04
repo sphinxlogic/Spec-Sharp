@@ -1,0 +1,17 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.ILGenerator.XML
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.ILGenerator.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.ILGenerator.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.MetadataHelper.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.SourceModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.MetadataHelper.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.MetadataHelper.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.MetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.MetadataModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.SourceModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\bin\Debug\Microsoft.Cci.SourceModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\obj\Debug\ILGenerator.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\obj\Debug\ILGenerator.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\obj\Debug\ILGenerator.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\obj\Debug\Microsoft.Cci.ILGenerator.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\ILGenerator\obj\Debug\Microsoft.Cci.ILGenerator.pdb

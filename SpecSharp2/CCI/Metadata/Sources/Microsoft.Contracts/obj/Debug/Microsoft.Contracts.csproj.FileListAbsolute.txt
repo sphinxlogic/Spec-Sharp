@@ -1,0 +1,6 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\Microsoft.Contracts\bin\Debug\Microsoft.Contracts.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\Microsoft.Contracts\bin\Debug\Microsoft.Contracts.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\Microsoft.Contracts\obj\Debug\Microsoft.Contracts.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\Microsoft.Contracts\obj\Debug\Microsoft.Contracts.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\Microsoft.Contracts\obj\Debug\Microsoft.Contracts.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Sources\Microsoft.Contracts\obj\Debug\Microsoft.Contracts.pdb

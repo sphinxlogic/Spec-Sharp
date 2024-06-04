@@ -1,0 +1,16 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\FindGeneric.exe
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\FindGeneric.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.MetadataHelper.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.PeReader.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.MetadataHelper.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.MetadataHelper.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.MetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.MetadataModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.PeReader.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\bin\Debug\Microsoft.Cci.PeReader.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\obj\Debug\FindGeneric.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\obj\Debug\FindGeneric.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\obj\Debug\FindGeneric.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\obj\Debug\FindGeneric.exe
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindGeneric\obj\Debug\FindGeneric.pdb

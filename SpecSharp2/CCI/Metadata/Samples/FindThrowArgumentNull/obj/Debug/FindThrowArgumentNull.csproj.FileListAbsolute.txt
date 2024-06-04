@@ -1,0 +1,16 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\FindThrowArgumentNull.exe
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\FindThrowArgumentNull.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.MetadataHelper.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.MetadataModel.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.PeReader.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.MetadataHelper.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.MetadataHelper.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.MetadataModel.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.MetadataModel.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.PeReader.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\bin\Debug\Microsoft.Cci.PeReader.xml
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\obj\Debug\FindThrowArgumentNull.csproj.AssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\obj\Debug\FindThrowArgumentNull.csproj.CoreCompileInputs.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\obj\Debug\FindThrowArgumentNull.csproj.CopyComplete
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\obj\Debug\FindThrowArgumentNull.exe
+D:\specsharp\sourceCode\specsharp\SpecSharp2\CCI\Metadata\Samples\FindThrowArgumentNull\obj\Debug\FindThrowArgumentNull.pdb

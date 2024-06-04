@@ -1,0 +1,5 @@
+D:\specsharp\sourceCode\specsharp\SpecSharp\Microsoft.VisualStudio.CodeTools\ITaskManager\bin\Debug\ITaskManager.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp\Microsoft.VisualStudio.CodeTools\ITaskManager\bin\Debug\ITaskManager.pdb
+D:\specsharp\sourceCode\specsharp\SpecSharp\Microsoft.VisualStudio.CodeTools\ITaskManager\obj\Debug\ResolveAssemblyReference.cache
+D:\specsharp\sourceCode\specsharp\SpecSharp\Microsoft.VisualStudio.CodeTools\ITaskManager\obj\Debug\ITaskManager.dll
+D:\specsharp\sourceCode\specsharp\SpecSharp\Microsoft.VisualStudio.CodeTools\ITaskManager\obj\Debug\ITaskManager.pdb

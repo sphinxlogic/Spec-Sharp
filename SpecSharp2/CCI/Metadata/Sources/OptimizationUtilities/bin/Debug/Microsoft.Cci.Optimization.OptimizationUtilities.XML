@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Cci.Optimization.OptimizationUtilities</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Cci.Optimization.AssemblyMerger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.AssemblyMerger.#ctor(Microsoft.Cci.IMetadataHost,Microsoft.Cci.MutableCodeModel.Assembly,Microsoft.Cci.MutableCodeModel.Module[])">
+            <summary>
+            
+            </summary>
+            <param name="host"></param>
+            <param name="result"></param>
+            <param name="modulesToMerge"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.AssemblyMerger.Merge">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.ModuleMerger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ModuleMerger.#ctor(Microsoft.Cci.IMetadataHost,Microsoft.Cci.MutableCodeModel.Module,Microsoft.Cci.MutableCodeModel.Module[])">
+            <summary>
+            
+            </summary>
+            <param name="host"></param>
+            <param name="result"></param>
+            <param name="modulesToMerge"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ModuleMerger.Merge">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ModuleMerger.MergeAssemblyReferences">
+            <summary>
+            Fixes up all references in this.result that would resolve to definitions in one of the assemblies to merge
+            so that instead they will resolve to the (reparented) definition in the merged assembly. Consolidates
+            the other assembly references so that there is a single instance for each referenced assembly.
+            Also replaces all references to definitions in the merged assembly, with the actual definitions.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.ErrorMessage">
+            <summary>
+            Information about an error that occurred during an assembly merge operation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.ErrorReporter">
+            <summary>
+            The object reporting the error. This can be used to filter out errors coming from non interesting sources.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.ErrorReporterIdentifier">
+            <summary>
+            A short identifier for the reporter of the error, suitable for use in human interfaces. For example "CS" in the case of a C# language error.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.Error">
+            <summary>
+            The error this message pertains to.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.Code">
+            <summary>
+            A code that corresponds to this error. This code is the same for all cultures.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.IsWarning">
+            <summary>
+            True if the error message should be treated as an informational warning rather than as an indication that the associated
+            merge has failed and no useful executable output has been generated.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.Message">
+            <summary>
+            A description of the error suitable for user interaction. Localized to the current culture.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.MessageParameter">
+            <summary>
+            If not null, this strings parameterizes the error message.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.Location">
+            <summary>
+            The location of the error.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ErrorMessage.RelatedLocations">
+            <summary>
+            Zero ore more locations that are related to this error.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.MergeError">
+            <summary>
+            An enumeration of errors that can occur during assembly merging.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Cci.Optimization.MergeError.DuplicateAlias">
+            <summary>
+            Type {0} is exported from more than one of the merged assemblies. A rename was done to prevent the merged assembly from being invalid.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Cci.Optimization.MergeError.DuplicateGlobalMethod">
+            <summary>
+            Global method {0} is exported from more than one of the merged assemblies. A rename was done to prevent the merged assembly from being invalid.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Cci.Optimization.MergeError.DuplicateGlobalField">
+            <summary>
+            Global field {0} is exported from more than one of the merged assemblies. A rename was done to prevent the merged assembly from being invalid.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Cci.Optimization.MergeError.DuplicateType">
+            <summary>
+            Namespace type {0} is exported from more than one of the merged assemblies. A rename was done to prevent the merged assembly from being invalid.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2">
+            <summary>
+            A base class for converters that populate ILGenerator instances with the IL operations found in ControlAndDataFlowGraph instances.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.#ctor(Microsoft.Cci.Analysis.ControlAndDataFlowGraph{`0,`1},Microsoft.Cci.ILGenerator,Microsoft.Cci.ILocalScopeProvider,Microsoft.Cci.ISourceLocationProvider)">
+            <summary>
+            
+            </summary>
+            <param name="cdfg"></param>
+            <param name="ilGenerator"></param>
+            <param name="localScopeProvider"></param>
+            <param name="sourceLocationProvider"></param>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.Cdfg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.ILGenerator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.Locals">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.MaxStack">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.StackHeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.PopulateILGenerator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.PopulateLocals">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.EmitScopeInformationFor(`1)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.EmitSourceLocationFor(`1)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.GenerateILFor(`0)">
+            <summary>
+            
+            </summary>
+            <param name="block"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.EmitOperandsFor(`1)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.EmitOperationFor(`1)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.GetLabelFor(System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="offset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.GetLocalIndex(Microsoft.Cci.ILocalDefinition)">
+            <summary>
+            
+            </summary>
+            <param name="local"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.GetParameterIndex(Microsoft.Cci.IParameterDefinition)">
+            <summary>
+            Translates the parameter list position of the given parameter to an IL parameter index. In other words,
+            it adds 1 to the parameterDefinition.Index value if the containing method has an implicit this parameter.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.LoadLocal(Microsoft.Cci.ILocalDefinition)">
+            <summary>
+            
+            </summary>
+            <param name="local"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.LoadLocalAddress(Microsoft.Cci.ILocalDefinition)">
+            <summary>
+            
+            </summary>
+            <param name="local"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.LoadParameter(Microsoft.Cci.IParameterDefinition)">
+            <summary>
+            
+            </summary>
+            <param name="parameter"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.LoadParameterAddress(Microsoft.Cci.IParameterDefinition)">
+            <summary>
+            
+            </summary>
+            <param name="parameter"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.StoreLocal(Microsoft.Cci.ILocalDefinition)">
+            <summary>
+            
+            </summary>
+            <param name="local"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.ControlFlowToMethodBodyConverter`2.StoreParameter(Microsoft.Cci.IParameterDefinition)">
+            <summary>
+            
+            </summary>
+            <param name="parameter"></param>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.Inliner">
+            <summary>
+            A rewriter for method bodies that inlines calls to methods identified by the rewriter client via a call back.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.Inliner.#ctor(Microsoft.Cci.IMetadataHost,Microsoft.Cci.Optimization.ShouldInline,Microsoft.Cci.ILocalScopeProvider,Microsoft.Cci.ISourceLocationProvider)">
+            <summary>
+            A rewriter for method bodies that inlines calls to methods identified by the rewriter client via a call back.
+            </summary>
+            <param name="host">An object representing the application that is hosting this mutator. It is used to obtain access to some global
+            objects and services such as the shared name table and the table for interning references.</param>
+            <param name="inlineSelector">
+            Returns zero or more method definitions that should be inlined at a given call site. Zero methods means no inlining. For non virtual calls, one method means that the call
+            should be inlined. For virtual calls, one or methods means that the call site should do call site type tests to avoid virtual calls for the returned methods.
+            A subsequent call to ShouldInline, using one of the method definitions as the methodBeingCalled parameter can be used to determine if the call following the type test
+            should be inline or not.
+            </param>
+            <param name="sourceLocationProvider">An object that can map some kinds of ILocation objects to IPrimarySourceLocation objects. May be null.</param>
+            <param name="localScopeProvider">An object that can provide information about the local scopes of a method. May be null.</param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.Inliner.Rewrite(Microsoft.Cci.IMethodBody)">
+            <summary>
+            </summary>
+            <param name="methodBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.Inliner.EmitOperation(Microsoft.Cci.IOperation)">
+            <summary>
+            Emits the given operation at the current position of the new IL stream. Also tracks any referenced local definitions,
+            so that this.localVariables will contain the exact list of locals used in the new method body.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.ShouldInline">
+            <summary>
+            Returns zero or more method definitions that should be inlined at the given call site. Zero methods means no inlining. For non virtual calls, one method means that the call
+            should be inlined. For virtual calls, one or methods means that the call site should do call site type tests to avoid virtual calls for the returned methods.
+            A subsequent call to ShouldInline, using one of the method definitions as the methodBeingCalled parameter can be used to determine if the call following the type test
+            should be inline or not.
+            </summary>
+            <param name="callingMethod">The method into which the called method should be inlined, if so desired.</param>
+            <param name="offsetOfCall">The offset in the calling method where the inlining should take place.</param>
+            <param name="methodBeingCalled">The method being called.</param>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.LocalMinimizer`2">
+            <summary>
+            Removes SSA locals that are used in redundant store, load sequences.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.LocalMinimizer`2.#ctor(Microsoft.Cci.IMetadataHost,Microsoft.Cci.Analysis.ControlAndDataFlowGraph{`0,`1},Microsoft.Cci.Analysis.ControlGraphQueries{`0,`1},Microsoft.Cci.ILocalScopeProvider,Microsoft.Cci.ISourceLocationProvider)">
+            <summary>
+            
+            </summary>
+            <param name="host"></param>
+            <param name="cdfg"></param>
+            <param name="cfgQueries"></param>
+            <param name="localScopeProvider"></param>
+            <param name="sourceLocationProvider"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.LocalMinimizer`2.MinimizeLocals">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.MultipleAssigner`2">
+            <summary>
+            Changes a control flow graph from SSA form to a version where the SSA variables are unified into the smallest number of locals.
+            This is somewhat like register allocation where the number of registers can grow as large as needed, but registers are typed.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.MultipleAssigner`2.#ctor(Microsoft.Cci.IMetadataHost,Microsoft.Cci.Analysis.ControlAndDataFlowGraph{`0,`1},Microsoft.Cci.Analysis.ControlGraphQueries{`0,`1})">
+            <summary>
+            Changes a control flow graph from SSA form to a version where the SSA variables are unified into the smallest number of locals.
+            This is somewhat like register allocation where the number of registers can grow as large as needed, but registers are typed.
+            </summary>
+            <param name="host"></param>
+            <param name="cdfg"></param>
+            <param name="cfgQueries"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.MultipleAssigner`2.ReuseDeadLocals">
+            <summary>
+            Changes a control flow graph from SSA form to a version where the SSA variables are unified into the smallest number of locals.
+            This is somewhat like register allocation where the number of registers can grow as large as needed, but registers are typed.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.PartialEvaluator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PartialEvaluator.#ctor(Microsoft.Cci.IMetadataHost,Microsoft.Cci.ILocalScopeProvider,Microsoft.Cci.ISourceLocationProvider)">
+            <summary>
+            
+            </summary>
+            <param name="host"></param>
+            <param name="localScopeProvider"></param>
+            <param name="sourceLocationProvider"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PartialEvaluator.PartiallyEvaluate(Microsoft.Cci.IMethodBody,Microsoft.Cci.IMetadataConstant[])">
+            <summary>
+            Given the body of method, and optionally the actual values of some of the arguments of the method, partially evaluate the body and return
+            a new body that has been specialized with respect to the partial input. It is to be expected that the resulting body will execute faster
+            than the original, because some computation is likely to be removed by the partial evaluator. In some cases, this will even be true when
+            no actual input values are supplied because partial evaluator will discover and remove any redundant code in the given method body.
+            </summary>
+            <param name="methodBody">The method body to partially evaluate.</param>
+            <param name="arguments">The actual values of some of the parameters of the method. Unknown values are reprsented by CodeDummy.Constant.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.PeBasicBlock`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="Instruction"></typeparam>
+        </member>
+        <member name="F:Microsoft.Cci.Optimization.PeBasicBlock`1.definedTemporaries">
+            <summary>
+            A possibly null set of temporary variables that are defined when control leaves this block.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Cci.Optimization.PeBasicBlock`1.transferBlocks">
+            <summary>
+            If a basic block needs to compute something for a particular successor only, this list will
+            be non null and will contain a non null entry at the index matching the successor's index in this
+            block's successor list.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Cci.Optimization.PeBasicBlock`1.transferInstructions">
+            <summary>
+            Will be non null only in blocks that are transfer blocks. Contains instructions that provide
+            the successor of the transfer block with a consistent environment from all predecessors.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.PeInstruction">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Microsoft.Cci.Optimization.PeInstruction.Operand1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.PeILConverter`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="BasicBlock"></typeparam>
+            <typeparam name="Instruction"></typeparam>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PeILConverter`2.#ctor(Microsoft.Cci.Analysis.ControlAndDataFlowGraph{`0,`1},Microsoft.Cci.ILGenerator,Microsoft.Cci.ILocalScopeProvider,Microsoft.Cci.ISourceLocationProvider)">
+            <summary>
+            
+            </summary>
+            <param name="cdfg"></param>
+            <param name="ilGenerator"></param>
+            <param name="localScopeProvider"></param>
+            <param name="sourceLocationProvider"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PeILConverter`2.PopulateLocals">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PeILConverter`2.GenerateILFor(`0)">
+            <summary>
+            
+            </summary>
+            <param name="block"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PeILConverter`2.EmitSourceLocationFor(`1)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PeILConverter`2.EmitOperandsFor(`1)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PeILConverter`2.EmitOperandsFor(`1,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+            <param name="alsoEmitOperation"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.PeILConverter`2.EmitOperationFor(`1)">
+            <summary>
+            
+            </summary>
+            <param name="instruction"></param>
+        </member>
+        <member name="T:Microsoft.Cci.Optimization.StackEliminator`2">
+            <summary>
+            Introduces temporary variables and transfer instructions in order to ensure that the operand stack is empty at the start of every basic block.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.StackEliminator`2.#ctor(Microsoft.Cci.IMetadataHost,Microsoft.Cci.Analysis.ControlAndDataFlowGraph{`0,`1},Microsoft.Cci.ILocalScopeProvider,Microsoft.Cci.ISourceLocationProvider)">
+            <summary>
+            
+            </summary>
+            <param name="host"></param>
+            <param name="cdfg"></param>
+            <param name="localScopeProvider"></param>
+            <param name="sourceLocationProvider"></param>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.StackEliminator`2.GetNewBody">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Cci.Optimization.StackEliminator`2.Eliminate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
